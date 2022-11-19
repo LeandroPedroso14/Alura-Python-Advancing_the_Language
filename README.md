@@ -1,2 +1,2 @@
-# Curos alura
- python
+### Python and object orientation
+- Python: Advancing the Language.
