@@ -1,2 +1,2 @@
-# Curos alura
- python
+### Curos alura
+- Moving forward in python.
