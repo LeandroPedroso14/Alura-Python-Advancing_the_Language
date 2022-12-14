@@ -30,7 +30,11 @@ def jogar():
         acertou = "_" not in letras_acertadas
         print(letras_acertadas)
 
-    print("Fim do jogo")
+    if(acertou):
+      print("Você ganhou! !")
+    else:  
+        print("Você perdeu! !")
+      print("Fim do jogo")
 
-if(__name__ == "__main__"):
-    jogar()
+    if(__name__ == "__main__"):
+      jogar()
