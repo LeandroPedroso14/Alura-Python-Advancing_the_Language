@@ -34,7 +34,7 @@ def jogar():
       print("Você ganhou! !")
     else:  
         print("Você perdeu! !")
-        print("Fim do jogo")
+    print("Fim do jogo")
 
     if(__name__ == "__main__"):
       jogar()
