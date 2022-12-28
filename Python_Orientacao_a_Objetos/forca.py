@@ -6,10 +6,12 @@ def jogar():
 
     arquivo = open("palavras.txt", "r")
 
+    for linha in arquivo:
+        
 
     arquivo.close()
 
-    
+
 
     palavra_secreta = "maçã".upper()
     letras_acertadas = ["_" for letra in palavra_secreta]
