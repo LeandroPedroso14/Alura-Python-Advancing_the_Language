@@ -13,7 +13,7 @@ def jogar():
 
     arquivo.close()
 
-
+    print(palavras)
 
     palavra_secreta = "maçã".upper()
     letras_acertadas = ["_" for letra in palavra_secreta]
