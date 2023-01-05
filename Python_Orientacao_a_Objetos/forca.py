@@ -1,9 +1,8 @@
 import randon
 
 
-def inicializa_letras_acertadas():
-    lista = 
-    retorn lista ["_" for letra in palavra_secreta]
+def inicializa_letras_acertadas(palavra):
+    retorn lista ["_" for letra in palavra]
 
 
 
