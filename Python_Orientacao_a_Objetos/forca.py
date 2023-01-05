@@ -1,3 +1,5 @@
+import randon
+
 def imprime_mensagem_de_abertura
 
 
