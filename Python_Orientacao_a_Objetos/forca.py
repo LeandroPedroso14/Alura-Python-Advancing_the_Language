@@ -1,9 +1,6 @@
 import randon
 
-def imprime_mensagem_de_abertura():
-    print("*********************************")
-    print("***Bem vindo ao jogo da Forca!***")
-    print("*********************************")
+
 
 
 def jogar():
@@ -56,3 +53,8 @@ def jogar():
 
 if(__name__ == "__main__"):
     jogar()
+
+def imprime_mensagem_de_abertura():
+    print("*********************************")
+    print("***Bem vindo ao jogo da Forca!***")
+    print("*********************************")
