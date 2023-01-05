@@ -1,12 +1,18 @@
 import randon
 
 
+def inicializa_letras_acertadas():
+    lista = 
+    retorn lista ["_" for letra in palavra_secreta]
+
+
+
 def jogar():
 
     imprime_mensagem_abertura():
 
     palavra_secreta = carrega_palavra_secreta()
-    letras_acertadas = inicializa_letras_acertadas()
+    letras_acertadas = inicializa_letras_acertadas(palavra_secreta)
 
     enforcou = False
     acertou = False
