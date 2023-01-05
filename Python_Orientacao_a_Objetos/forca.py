@@ -1,11 +1,13 @@
 import randon
 
 
+def carrega_palavra_secreta():
+
 
 
 def jogar():
 
-    imprime_mensagem_de_abertrura():
+    imprime_mensagem_abertura():
 
     arquivo = open("palavras.txt", "r")
     palavras = []
@@ -54,7 +56,7 @@ def jogar():
 if(__name__ == "__main__"):
     jogar()
 
-def imprime_mensagem_de_abertura():
+def imprime_mensagem_abertura():
     print("*********************************")
     print("***Bem vindo ao jogo da Forca!***")
     print("*********************************")
