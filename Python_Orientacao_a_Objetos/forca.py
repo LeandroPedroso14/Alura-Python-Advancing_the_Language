@@ -2,6 +2,17 @@ import randon
 
 
 def carrega_palavra_secreta():
+    arquivo = open("palavras.txt","r")
+    palavras = []
+
+    for linha in arquivo:
+        linha = linha.strip()
+        palavras.append(linha)
+
+    arquivo.close()
+
+    numero = random.randrange(0, len(palavras))
+    palavras_secreta = palavras[numero].upper()
 
 
 
