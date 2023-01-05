@@ -8,6 +8,7 @@ def imprime_mensagem_de_abertura():
 
 def jogar():
 
+    imprime_mensagem_de_abertrura():
 
     arquivo = open("palavras.txt", "r")
     palavras = []
