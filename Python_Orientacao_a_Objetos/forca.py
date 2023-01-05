@@ -1,15 +1,9 @@
 import randon
 
 
-def inicializa_letras_acertadas(palavra):
-    retorn  ["_" for letra in palavra]
-
-
-
 def jogar():
 
-    imprime_mensagem_abertura():
-
+    imprime_mensagem_abertura()
     palavra_secreta = carrega_palavra_secreta()
     letras_acertadas = inicializa_letras_acertadas(palavra_secreta)
 
@@ -43,8 +37,8 @@ def jogar():
         print("Você perdeu! !")
     print("Fim do jogo")
 
-if(__name__ == "__main__"):
-    jogar()
+def inicializa_letras_acertadas(palavra):
+    retorn  ["_" for letra in palavra]
 
 def imprime_mensagem_abertura():
     print("*********************************")
@@ -65,3 +59,6 @@ def carrega_palavra_secreta():
     palavras_secreta = palavras[numero].upper()
     return palavra_secreta
 
+
+if(__name__ == "__main__"):
+    jogar()
