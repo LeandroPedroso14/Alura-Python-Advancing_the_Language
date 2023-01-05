@@ -1,7 +1,4 @@
-def jogar():
-    print("*********************************")
-    print("***Bem vindo ao jogo da Forca!***")
-    print("*********************************")
+def imprime_mensagem_de_abertura
 
 
     arquivo = open("palavras.txt", "r")
