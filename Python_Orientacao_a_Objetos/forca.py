@@ -1,4 +1,4 @@
-import randon
+import random
 
 
 def jogar():
