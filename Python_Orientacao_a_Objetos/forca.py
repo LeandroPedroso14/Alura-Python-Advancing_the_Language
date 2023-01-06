@@ -38,7 +38,7 @@ def jogar():
     print("Fim do jogo")
 
 def inicializa_letras_acertadas(palavra):
-    retorn  ["_" for letra in palavra]
+    return  ["_" for letra in palavra]
 
 def imprime_mensagem_abertura():
     print("*********************************")
