@@ -56,7 +56,7 @@ def carrega_palavra_secreta():
     arquivo.close()
 
     numero = random.randrange(0, len(palavras))
-    palavras_secreta = palavras[numero].upper()
+    palavra_secreta = palavras[numero].upper()
     return palavra_secreta
 
 
