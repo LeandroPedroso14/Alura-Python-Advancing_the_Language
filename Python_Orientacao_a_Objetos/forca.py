@@ -2,7 +2,6 @@ import random
 
 
 def jogar():
-
     imprime_mensagem_abertura()
     palavra_secreta = carrega_palavra_secreta()
 
@@ -47,8 +46,8 @@ def marca_chute_correto(chute,letras_acertadas, palavra_secreta):
         index += 1
 
     def pede_chute():
-    input("Qual aletra? ")
-    chute = chute.strip().upper()
+     input("Qual aletra? ")
+     chute = chute.strip().upper()
     return chute
 
 def inicializa_letras_acertadas(palavra):
