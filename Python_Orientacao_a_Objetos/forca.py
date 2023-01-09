@@ -6,7 +6,7 @@ def imprime_mensagem_vencedor():
 
 
 def imprime_mensagem_perdedor():
-
+    print("Você perdeu!!")
 
 
 def jogar():
