@@ -45,9 +45,9 @@ def marca_chute_correto(chute,letras_acertadas, palavra_secreta):
             letras_acertadas[index] = letra
         index += 1
 
-    def pede_chute():
-     input("Qual aletra? ")
-     chute = chute.strip().upper()
+def pede_chute():
+    input("Qual aletra? ")
+    chute = chute.strip().upper()
     return chute
 
 def inicializa_letras_acertadas(palavra):
