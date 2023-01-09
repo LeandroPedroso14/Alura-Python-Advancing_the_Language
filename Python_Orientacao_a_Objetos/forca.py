@@ -2,7 +2,9 @@ import random
 
 
 def pede_chute():
-    
+    input("Qual aletra? ")
+    chute = chute.strip().upper()
+
 
 def jogar():
 
