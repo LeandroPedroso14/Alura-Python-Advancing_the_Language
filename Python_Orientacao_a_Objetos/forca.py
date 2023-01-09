@@ -1,5 +1,14 @@
 import random
 
+
+def imprime_mensagem_vencedor():
+    print("Você ganhou!!")
+
+
+def imprime_mensagem_perdedor():
+
+
+
 def jogar():
 
     imprime_mensagem_abertura()
@@ -26,9 +35,10 @@ def jogar():
         print(letras_acertadas)
 
     if(acertou):
-        print("Você ganhou! !")
+        imprime_mensagem_vencedor()
     else:  
-        print("Você perdeu! !")
+        imprime_mensagem_perdedor
+       
     
 
 
