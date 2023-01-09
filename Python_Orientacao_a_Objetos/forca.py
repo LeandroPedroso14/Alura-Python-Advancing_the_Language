@@ -29,7 +29,7 @@ def jogar():
         print("Você ganhou! !")
     else:  
         print("Você perdeu! !")
-    print("Fim do jogo")
+    
 
 
 def marca_chute_correto(chute,letras_acertadas, palavra_secreta):
