@@ -28,7 +28,7 @@ def jogar():
     if(acertou):
         imprime_mensagem_vencedor()
     else:  
-        imprime_mensagem_perdedor
+        imprime_mensagem_perdedor(palavra_secreta)
        
     
 def imprime_mensagem_vencedor():
