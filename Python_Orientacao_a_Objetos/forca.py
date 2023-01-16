@@ -20,6 +20,7 @@ def jogar():
             marca_chute_correto(chute,letras_acertadas, palavra_secreta)
         else:
             erros =+ 1
+            desenha_forca(erros)
 
         enforcou = erros == 6
         acertou = "_" not in letras_acertadas
