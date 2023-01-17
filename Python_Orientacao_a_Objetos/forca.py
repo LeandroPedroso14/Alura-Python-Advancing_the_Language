@@ -128,9 +128,8 @@ def marca_chute_correto(chute,letras_acertadas, palavra_secreta):
         index += 1
 
 def pede_chute():
-    input("Qual aletra? ")
-    chute = chute.strip().upper()
-    return chute
+  chute = input("Qual a letra? ").strip().upper()
+  return chute
 
 def inicializa_letras_acertadas(palavra):
     return  ["_" for letra in palavra]
